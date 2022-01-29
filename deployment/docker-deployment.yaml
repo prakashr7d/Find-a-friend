@@ -1,0 +1,36 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: faf
+  name: faf-deployment
+  namespace: faf
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: faf
+  template:
+    metadata:
+      labels:
+        app: faf
+    spec:
+      containers:
+        - image: faf:change1
+          imagePullPolicy: Never
+          name: faf
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: 0.1
+              memory: 1000Mi
+            limits:
+              cpu: 0.1
+              memory: 1Mi
+
+

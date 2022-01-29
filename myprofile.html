@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profileCSS.css">
+
+    <title>Your Profile</title>
+</head>
+<body>
+    <div class="bio" id=myText contenteditable>
+    <h2>Changed Name 25</h2>
+    <h3>Ohio</h3>
+    <h4>Kubernetes Expert</h4>
+    <p id="bio">Kubernetes Rollback example.....</p>
+    <button style = "background-color: #54436B;
+    border: none;
+    color: #ACFFAD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;" onclick="saveEdits()">Save</button>
+
+    <button style = "background-color: #54436B;
+    border: none;
+    color: #ACFFAD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;" onclick="clearStorage()">Clear</button><br><br>
+
+    <input type="button" value="Home" onclick="location.href='home.html'">
+    <input type="button" value="Logout" onclick="location.href='index.html'">
+    <input type="button" value="Help" onclick="location.href='Help.html'"><br><br>
+    </div>
+    <div class="photo">
+        <img src="Men (3).jpg" alt="Photo">
+    </div>
+    
+</body>
+</html>
+
+<script src="profile.js"></script>

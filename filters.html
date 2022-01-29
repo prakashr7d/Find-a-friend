@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formCSS.css">
+    <title>Filters</title>
+</head>
+<body>
+    <div class="filter" id=myFilter>
+        <form>
+            <label>Gender:</label>
+            <select name="Gender" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Transgender</option>
+                <option>Non-Binary</option>
+                <option>Fine with anyone</option>
+            </select>
+            <br><br>
+            <label>Scholar:</label><select name="study" id="study">
+                <option>Yes</option>
+                <option>No</option>
+                <option>Fine with anyone</option>
+            </select>
+            <label>Looking For:</label><select name="lfor" id="lfor">
+                <option>Friends</option>
+                <option>Employees</option>
+                <option>Study mates</option>
+                <option>Colaborator</option>
+                <option>Fine with anyone</option>
+            </select>
+        </form>
+        <br><br>
+        <button value="home" onclick="location.href='home.html'">Done</button>
+    </div>
+    
+</body>
+</html>
+
+<script src="filter.js"></script>

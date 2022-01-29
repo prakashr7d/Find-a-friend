@@ -1,0 +1,103 @@
+html{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-image: linear-gradient( 135deg, #50CB93 10%, #ACFFAD 100%);
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+
+a{
+    color: #ACFFAD;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main-content{
+    display: block;
+    position: relative;
+    height: 425px;
+    width: 650px;
+    top: 200px;
+    left: 150px;
+}
+
+
+.main-content p{
+    margin-bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+
+.main-content h1{
+    width: 620px;
+    margin: -16px 16px 40px;
+    font-size: 110px;
+    font-family: 'Impact',monospace;
+    line-height: 110px;
+    color: #71EFA3;
+    letter-spacing: 1px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #54436B;
+    text-shadow: -1px 1px #54436B, -2px 2px #54436B, -3px 3px #54436B, -4px 4px #54436B, -5px 5px #54436B, -6px 6px #54436B, -7px 7px #54436B, -8px 8px #54436B, -9px 9px #54436B, -10px 10px #54436B, -11px 11px #54436B, -12px 12px #54436B, -13px 13px #54436B, -14px 14px #54436B, -15px 15px #54436B, -16px 16px #54436B;
+}
+
+.login{
+    display: inline-block;
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
+    text-align: center;
+}
+
+.help{
+    display: inline-block;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    text-align: center;
+}
+
+.login button{
+    background-color: #54436B;
+    color: #ACFFAD;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.help button{
+    background-color: #54436B;
+    color: #ACFFAD;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.login button:hover,.help button:hover{
+    border: none;
+    background-color: #413d57;
+    padding: 15px 32px;
+}
+
+footer{
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 700px;
+    text-align: center;
+}

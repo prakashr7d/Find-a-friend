@@ -1,0 +1,68 @@
+.bio{
+    background-color:#ACFFAD;
+    color: #54436B;
+    font-size: 24px;
+    height:100%;
+    width: 50%;
+    position:absolute;
+    top: 0px;
+    left: 0;
+}
+
+
+input,.button{
+    background-color: #54436B;
+    border: none;
+    color: #ACFFAD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input,.button:hover{
+    border: none;
+    background-color: #413d57;
+    padding: 15px 32px;
+}
+
+
+.photo{
+    background-color:#ACFFAD;
+    height:100%;
+    width: 50%;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.photo img{
+    height:100%;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    top: 0;
+    background-color:#ACFFAD;
+    float: left;
+  }
+  
+nav a {
+    display: inline-block;
+    color: #413d57;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav a:hover:not(.active) {
+    color: #ACFFAD;
+    background-color: #413d57;
+}
+
+.active {
+    color: #54436B;
+    background-color: #50CB93;
+}
